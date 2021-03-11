@@ -17,7 +17,7 @@ repository               : "slugflow/slugflow.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
-future                   : true
+future                   : false
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Jingren Xu"
-  avatar           : "testimage.jpg"
+  avatar           : "site-logo.png"
   bio              : "PhD student in Robotics"
   location         : "Osaka University, Japan"
   employer         :
