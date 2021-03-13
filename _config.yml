@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jingren Xu / Robotic Manipulation"
+title                    : "Robotic Manipulation"
 title_separator          : "-"
-name                     : &name "Jingren Xu"
-description              : &description "Jingren Xu, Robotic manipulation"
+name                     : &name "slugflow"
+description              : &description "slugflow, Robotic manipulation"
 url                      : https://slugflow.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "slugflow/slugflow.github.io"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Jingren Xu"
+  name             : "slugflow"
   avatar           : "site-logo.png"
   bio              : "PhD student in Robotics"
   location         : "Osaka University, Japan"
