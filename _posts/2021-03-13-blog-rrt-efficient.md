@@ -1,0 +1,19 @@
+---
+title: 'Why is RRT efficient?'
+date: 2021-03-13
+permalink: /posts/
+tags:
+  - RRT
+---
+
+Trajectory optimization is a local method, it only explores the neighbor of a initial seed, thus it scales well in high dimension. But RRT is a global method, what makes it efficient in exploring a collision-free path?
+
+* Voronoi bias, the nodes in thesearch treewiththe largestVoronoiregionstendto beselectedfor exploration.
+* It does not explicitly construct the C-space.
+
+
+To be continued...
+
+Reference:
+
+Lindemann, Stephen R., and Steven M. LaValle. "Incrementally reducing dispersion by increasing Voronoi bias in RRTs." IEEE International Conference on Robotics and Automation, 2004. Proceedings. ICRA'04. 2004. Vol. 4. IEEE, 2004.
