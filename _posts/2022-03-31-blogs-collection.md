@@ -13,3 +13,6 @@ tags:
 4. [浅谈人工智能：现状、任务、构架与统一（2017年11月）](http://www.stat.ucla.edu/~sczhu/Blog_articles/%E6%B5%85%E8%B0%88%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD.pdf)
 5. [Inspiring blogs from Song-chun Zhu](http://www.stat.ucla.edu/~sczhu/research_blog.html)
 6. [Interesting bio from top motion planning researcher Steven M. LaValle](http://lavalle.pl/bio.html)
+
+
+<span style="color:blue">To be continued...</span>
