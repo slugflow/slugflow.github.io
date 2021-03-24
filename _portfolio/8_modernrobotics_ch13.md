@@ -8,7 +8,7 @@ Wheeled mobile robots may be classified in two major categories, omnidirectional
 
 ### Modeling of nonholonomic wheeled mobile robots
 * Unicycle 
-* Differential-drive robots 
+* Differential-drive robots: **Note that both the bicycle model and diff-drive mobile robot have two non-omnidirectional wheels, but the former has two independent nonholonomic constraints (for front and rear wheels) while the later only has one. Because the two wheels are aligned along the same axis, two nonholonomic constraints on two wheels are equivalent.**
 * Car-like robots
 
 ### Controlability
@@ -23,6 +23,8 @@ $R^W(q, ≤ T)=\bigcup_{0 \leq t \leq T} R^W(q, t)$
 
 
 #### Reference
-Lynch, Kevin M., and Frank C. Park. Modern Robotics. Cambridge University Press, 2017.
+[1] Lynch, Kevin M., and Frank C. Park. Modern Robotics. Cambridge University Press, 2017.
+
+[2] Siegwart, Roland, Illah Reza Nourbakhsh, and Davide Scaramuzza. Introduction to autonomous mobile robots. MIT press, 2011.
 
 <span style="color:blue">To be continued...</span>
