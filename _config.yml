@@ -9,11 +9,11 @@
 locale                   : "en-US"
 title                    : "Robotic Manipulation"
 title_separator          : "-"
-name                     : &name "slugflow"
-description              : &description "slugflow, Robotic manipulation"
+name                     : &name "Jingren Xu"
+description              : &description "Jingren Xu, Robotic manipulation"
 url                      : https://slugflow.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "slugflow/slugflow.github.io"
+# repository               : "slugflow/slugflow.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "slugflow"
+  name             : "Jingren Xu"
   avatar           : "site-logo.png"
   bio              : "PhD student in Robotics"
   location         : "Osaka University, Japan"
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "slugflow"
+  # github           : ""
   google_plus      :
   keybase          :
   instagram        :
