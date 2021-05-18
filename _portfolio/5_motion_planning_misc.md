@@ -1,7 +1,7 @@
 ---
 title: "Motion planning and control Misc."
 # excerpt: "Notes on RRT-connect paper<br/><img src='/images/500x300.png'>"
-date: 2022-01-01
+date: 2021-03-25
 collection: portfolio
 ---
 

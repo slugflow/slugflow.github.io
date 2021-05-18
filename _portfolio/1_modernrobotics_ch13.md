@@ -23,7 +23,7 @@ $R^W(q, ≤ T)=\bigcup_{0 \leq t \leq T} R^W(q, t)$
 ### Motion planning
 
 
-#### Reference
+### Reference
 [1] Lynch, Kevin M., and Frank C. Park. Modern Robotics. Cambridge University Press, 2017.  
 [2] Siegwart, Roland, Illah Reza Nourbakhsh, and Davide Scaramuzza. Introduction to autonomous mobile robots. MIT press, 2011.
 
