@@ -1,5 +1,6 @@
 ---
 title: "Trajectory planning for bertha—a local, continuous method"
+date: 2021-03-18
 # excerpt: "Notes on RRT-connect paper<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---

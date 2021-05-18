@@ -22,9 +22,10 @@ tags:
 2. Constraint functions are convex.
 
 
-### Why is convex optimization fast?
+### Why is convex optimization fast? 
+Although convex optimization in general is NP hard <cite>[1]</cite>..
 1. A local minima is guaranteed to be a global minima. 
-2. Separation Theorem.
+2. Separation Theorem?
 
 If the objective function is convex but constraint functions are not, then we can not guarantee a local minima to be a global minima due to the feasible region defined by the nonconvex constraints.
 
@@ -33,3 +34,6 @@ The following figure illustrates the optimization for a convex objective functio
 <img src='/images/posts/convex_opt.png'>
 
 <span style="color:blue">To be continued...</span>
+
+#### Reference
+[1] Manyem, Prabhu. "Duality Gap, Computational Complexity and NP Completeness: A Survey." arXiv preprint arXiv:1012.5568 (2010).

@@ -1,5 +1,6 @@
 ---
 title: "Modern Robotics: Mechanics, Planning, and Control (Chapter 13)"
+date: 2021-03-22
 # excerpt: "Notes on RRT-connect paper<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---

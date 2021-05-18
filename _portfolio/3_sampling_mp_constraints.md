@@ -1,5 +1,6 @@
 ---
 title: "Sampling-based methods for motion planning with constraints"
+date: 2021-03-25
 # excerpt: "Notes on RRT-connect paper<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
