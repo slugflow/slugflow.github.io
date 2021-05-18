@@ -7,7 +7,7 @@ collection: portfolio
 
 
 > * SQP:
-> $$arg \underset{q \in  \R^n}{\text{min}} (q_{seed}-q)^T(q_{seed}-q)$$
+> $$arg \underset{q \in \bf{R}^n}{\text{min}} (q_{seed}-q)^T(q_{seed}-q)$$
 > subject to
 >  $$f_i(q) \leq b_i, i=1,\dots,m$$
 > * SQP-DQ: the objective is the task space pose error.

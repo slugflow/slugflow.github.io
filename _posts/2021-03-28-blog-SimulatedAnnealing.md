@@ -26,10 +26,8 @@ Output: the final state s
 Reference:
 ---
 
-[1] [Simulated Annealing From Scratch in Python](https://machinelearningmastery.com/simulated-annealing-from-scratch-in-python/)
-
-[2] [Wiki - Simulated annealing](https://en.wikipedia.org/wiki/Simulated_annealing)
-
+[1] [Simulated Annealing From Scratch in Python](https://machinelearningmastery.com/simulated-annealing-from-scratch-in-python/)  
+[2] [Wiki - Simulated annealing](https://en.wikipedia.org/wiki/Simulated_annealing)  
 [3] [SA for TSP (code)](https://en.wikipedia.org/wiki/Simulated_annealing)
 
 <span style="color:blue">To be continued...</span>

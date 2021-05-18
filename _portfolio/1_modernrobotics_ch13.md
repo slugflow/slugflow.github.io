@@ -1,6 +1,6 @@
 ---
 title: "Modern Robotics: Mechanics, Planning, and Control (Chapter 13)"
-date: 2021-03-22
+date: 2021-03-12
 # excerpt: "Notes on RRT-connect paper<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
@@ -24,8 +24,7 @@ $R^W(q, ≤ T)=\bigcup_{0 \leq t \leq T} R^W(q, t)$
 
 
 #### Reference
-[1] Lynch, Kevin M., and Frank C. Park. Modern Robotics. Cambridge University Press, 2017.
-
+[1] Lynch, Kevin M., and Frank C. Park. Modern Robotics. Cambridge University Press, 2017.  
 [2] Siegwart, Roland, Illah Reza Nourbakhsh, and Davide Scaramuzza. Introduction to autonomous mobile robots. MIT press, 2011.
 
 <span style="color:blue">To be continued...</span>

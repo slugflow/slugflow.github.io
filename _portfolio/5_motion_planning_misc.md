@@ -1,7 +1,7 @@
 ---
 title: "Motion planning and control Misc."
 # excerpt: "Notes on RRT-connect paper<br/><img src='/images/500x300.png'>"
-date: 2021-03-12
+date: 2022-01-01
 collection: portfolio
 ---
 
@@ -13,11 +13,11 @@ collection: portfolio
   with a quadratic cost function defined as:
   $$J=x^T(t_1)F(t_1)x(t_1)+\int_{t_0}^{t_1}(x^TQx+u^Ru+2x^TNu)dt$$
 
-* Breadth-first search: explores all the neighbor nodes at the present depth prior to moving on to the nodes at the next depth level. Depth-first search: explores the node branch as far as possible before being forced to backtrack and expand other nodes.
-* A*, D*
-* Pfaffian constraints.
+* Pfaffian constraints: a set of k linearly independent constraints linear in velocity. It may come from rolling without slipping. [2]
+  $$ A(q)\dot{q}=0 $$
   
-[1] Steven M. Lavalle. Motion Planning: The Essentials
+[1] Steven M. Lavalle. Motion Planning: The Essentials  
+[2] Choset, Howie M., et al. Principles of robot motion: theory, algorithms, and implementation. MIT press, 2005.
 
 
 <span style="color:blue">To be continued...</span>
