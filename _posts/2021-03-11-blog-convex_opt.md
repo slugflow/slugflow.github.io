@@ -31,7 +31,8 @@ If the objective function is convex but constraint functions are not, then we ca
 
 The following figure illustrates the optimization for a convex objective function. The white regions are defined by convex constraints and the red region is defined by nonconvex constraints. Intuitively, we understand the local minima within the red region (feasible region of nonconvex constraints) is not necessarily a global minima.
 
-<img src='/images/posts/convex_opt.png'>
+<img src='/images/posts/convex_opt.png' height = 300>
+<img src='/images/posts/nonlinear_constraints.png' height = 300>
 
 <span style="color:blue">To be continued...</span>
 
