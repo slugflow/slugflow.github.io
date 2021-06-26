@@ -11,7 +11,7 @@ Such a constraint defines a lower dimensional manifold in the configuration spac
 $$X = \{q \in Q|F(q)=0\}$$
 $F(q)$ is the constraint function. An example of such constraint is keeping the EE at some orientation during the motion.
 
-Since the constraint manifold is a lower dimensional space embedded in the C-space, the relative measure (volume) is zero compared to C-space. Therefore, randomly sampled configuration will not lie on the constraint manifold. Basically, there are mainly four approached to handle the constraints:
+Since the constraint manifold is a lower dimensional space embedded in the C-space, the relative measure (volume) is zero compared to C-space. Therefore, randomly sampled configuration will not lie on the constraint manifold. Basically, there are mainly five approaches to handle the constraints:
 * Relaxation: set a tolerance which increases the volume of constraint space. It's like adding additional dimensions to the constraint manifold.
 * Projection: Use the Jacobian of $F(q)$ to reduce the error (distance) to the constraint manifold.
 * Tangent space: Locally linearize the manifold at the current configuration.
