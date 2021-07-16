@@ -16,6 +16,23 @@ tags:
 > Let $Q(x_1, x_2,..., x_n)=\boldsymbol{x}^TA\boldsymbol{x}$ be a quadratic form in n variables, $A$ is an sysmetric matrix, then:
 > * $Q$ is convex/concave $\iff$ $A$ is positive/negative semidefinite
 > * $Q$ is strictly convex/concave $\iff$ $A$ is positive/negative definite
+### Quadratic programming (QP)
+General form of QP:
+$$\underset{x} {\text{min}} \quad x^TGx+x^Tc$$
+subject to:
+$$a_i^Tx=b_i, i \in \mathcal{E}$$
+$$a_j^Tx \geq b_j, j \in \mathcal{I}$$
+i.e., a quadratic objective and linear constraints.
+
+With KKT conditions, we can find the optimal solution by solving the linear equations (the derivative of quadratic equations). There exist efficient solvers for linear equations, thus QP is popular and important??
+
+
+### Sequential Quadratic Programming (SQP)
+SQP is a special case of SCP. Core idea: approximation by QP, and iteratively solve a sequence of QP until convergence.
+1. At the current solution, approximate the objective with a quadratic function (if it is not), and linearize the nonlinear constraints (keep the linear ones). In addition to the original constraints, we have the trust region constraints to ensure the approximation is reasonable.
+2. Solve the approximated QP to obtain a new solution, the solution is the start for the next iteration.
+3. Repeat (1) and (2) at the new solution until some convergence criteria is satisfied.
+
 
 ### Convex optimization:
 1. Objective function is convex.
