@@ -8,23 +8,24 @@ tags:
 ---
 
 ### Definition of convex function
-> For all ${ 0\leq t \leq 1}$ and all ${ x_{1},x_{2}\in X,}$ 
-> ${ f\left(tx_{1}+(1-t)x_{2}\right)~\leq ~tf\left(x_{1}\right)+(1-t)f\left(x_{2}\right).}$
+For all ${ 0\leq t \leq 1}$ and all ${ x_{1},x_{2}\in X,}$ 
+${ f\left(tx_{1}+(1-t)x_{2}\right)~\leq ~tf\left(x_{1}\right)+(1-t)f\left(x_{2}\right).}$
 ### Quadratic forms and Convexity
-> Quadratic form in variables ${ x_1,x_2..., x_n}$ is a polynomial function $Q$, where all the terms in $Q(x_1, x_2,..., x_n)$ have order two. Quadratic functions $\neq$ convex functions.
->
-> Let $Q(x_1, x_2,..., x_n)=\boldsymbol{x}^TA\boldsymbol{x}$ be a quadratic form in n variables, $A$ is a **symmetric** $n \times n$ matrix, then:
-> * $Q$ is convex/concave $\iff$ $A$ is positive/negative semidefinite
-> * $Q$ is strictly convex/concave $\iff$ $A$ is positive/negative definite
+Quadratic form in variables ${ x_1,x_2..., x_n}$ is a polynomial function $Q$, where all the terms in $Q(x_1, x_2,..., x_n)$ have order two. Quadratic functions $\neq$ convex functions.
+
+Let $Q(x_1, x_2,..., x_n)=\boldsymbol{x}^TA\boldsymbol{x}$ be a quadratic form in n variables, $A$ is a **symmetric** $n \times n$ matrix, then:
+* $Q$ is convex/concave $\iff$ $A$ is positive/negative semidefinite
+* $Q$ is strictly convex/concave $\iff$ $A$ is positive/negative definite
+
 ### Quadratic programming (QP)
-General form of QP:
-$$\underset{x} {\text{min}} \quad x^TGx+x^Tc$$
-subject to:
-$$a_i^Tx=b_i, i \in \mathcal{E}$$
-$$a_j^Tx \geq b_j, j \in \mathcal{I}$$
+General form of QP:  
+$$\underset{x} {\text{min}} \quad x^TGx+x^Tc$$  
+subject to:  
+$$a_i^Tx=b_i, i \in \mathcal{E}$$  
+$$a_j^Tx \geq b_j, j \in \mathcal{I}$$  
 i.e., a quadratic objective and linear constraints.
 
-For equality-constrained QP: with KKT conditions, we can find the optimal solution $x^*$ (and $\lambda^*$ ) by solving the system of linear equations (zero gradient of Lagrangian $\nabla_x \mathcal{L}(x^*,\lambda^*)=0$ and the active linear constraints $Ax=b$). Since there exist efficient method for linear equations, QP is a common modeling choice for practical problems.
+For equality-constrained QP: with KKT conditions, we can find the optimal solution $$x^*$$ (and $$\lambda^*$$ ) by solving the system of linear equations (zero gradient of Lagrangian $$\nabla_x \mathcal{L}(x^*,\lambda^*)=0$$ and the active linear constraints $$Ax=b$$). Since there exist efficient method for linear equations, QP is a common modeling choice for practical problems.
 
 QP with inequality constraints can be solved by active-set methods. The core idea is that the optimal solution must lie on boundary or in the interior of the space defined by the inequality constraints. In the former case, these inequality constraints are active and can be treated as equality constraints. In the later case, these inequality constraints are inactive, and the corresponding Lagrangian multipliers are zero.
 
