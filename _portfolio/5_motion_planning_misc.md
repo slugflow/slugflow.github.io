@@ -1,7 +1,7 @@
 ---
 title: "Motion planning and control Misc."
 # excerpt: "Notes on RRT-connect paper<br/><img src='/images/500x300.png'>"
-date: 2021-03-25
+date: 2021-03-01
 collection: portfolio
 ---
 
@@ -15,7 +15,13 @@ collection: portfolio
 
 * Pfaffian constraints: a set of k linearly independent constraints linear in velocity. It may come from rolling without slipping. [2]
   $$ A(q)\dot{q}=0 $$
-  
+
+* Differentially flat systems:
+
+* Lie bracket: Given two vector fields, the Lie bracket of the vector fields tells if infinitely small motions along these vector fields can generate new motions that do not belong to these vector fields. For example, in the parallel parking of cars, although cars can not move sideways, by combining the turning and forward-backward motion, the car can indirectly move sideways.
+
+$$ [g_1,g_2] = \frac {\partial{g_2}}{\partial{x}} g_1 -  \frac {\partial{g_1}}{\partial{x}} g_2 $$
+
 [1] Steven M. Lavalle. Motion Planning: The Essentials  
 [2] Choset, Howie M., et al. Principles of robot motion: theory, algorithms, and implementation. MIT press, 2005.
 

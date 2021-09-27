@@ -10,7 +10,7 @@ Wheeled mobile robots may be classified in two major categories, omnidirectional
 ### Modeling of nonholonomic wheeled mobile robots
 * Unicycle 
 * Differential-drive robots: **Note that both the bicycle model and diff-drive mobile robot have two non-omnidirectional wheels, but the former has two independent nonholonomic constraints (for front and rear wheels) while the later only has one. Because the two wheels are aligned along the same axis, two nonholonomic constraints on two wheels are equivalent.**
-* Car-like robots
+* Car-like robots: In the autonomous driving community, the bicycle model is a commonly used model for planning and control. It is simple but captures the essential parts: bounded steering angle (bounded path curvature) and nonholonomic constraints.
 
 ### Controlability
 **Definition:** A robot is controllable from $q$ if, for any $q_{goal}$, there exists a control trajectory $u(t)$ that drives the robot from $q$ to $q_{goal}$ in finite time $T$. The robot is small-time locally accessible (STLA) from $q$ if, for any dimensional subset of the configuration space. The robot is small-time locally time $T > 0$ and any neighborhood $W$, the reachable set $R^W (q, ≤ T)$ is a full- controllable (STLC) from $q$ if, for any time $T > 0$ and any neighborhood W, the reachable set $R^W(q, ≤ T)$ is a neighborhood of $q$.
