@@ -113,9 +113,8 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : "https://www.youtube.com/channel/UCIvo28vLI777q5KA2g0nt0w"
+#   youtube          : "https://www.youtube.com/channel/UCIvo28vLI777q5KA2g0nt0w"
   wikipedia        :
-  zhihu            : "https://www.zhihu.com/people/dian-jing-zhan-mu-si"
 
 # Reading Files
 include:
